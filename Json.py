@@ -13,5 +13,5 @@ file=json.loads(file)
 for word in file['comments']:
     add=add+int(word['count'])
     sum=sum+1
-print('counts:',sum)
+print('counts: ',sum)
 print('sum:',add)
